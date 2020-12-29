@@ -6,8 +6,8 @@ sns = boto3.client('sns')
 iamRes = boto3.resource('iam')
 role = iamRes.Role('lambda-s3-role')
 
-prefix = 'lasivori'
-iam = '188348546586'
+prefix = 'example' #put preferred prefix here
+iam = '1234567890' #put your account number here
 
 #first create buckets:
 s3_c.create_bucket(Bucket=prefix+'-upload')
