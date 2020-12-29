@@ -4,7 +4,7 @@ PTON=python3
 PIP=pip
 VENV=v-env
 LAMBDA=quote_reader
-IAM=188348546586
+IAM=123456789011
 
 USAGE="Usage: $0 new|create|update|clean <lambda-func-name>"
 
