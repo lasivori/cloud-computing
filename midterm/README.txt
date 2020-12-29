@@ -1,3 +1,6 @@
+Objective: "The goal of this exam is to produce a working data processing pipeline that employs several AWS services – S3, SNS, SQS and Lambda"
+We were tasked to take in simulated stock information (through CSV files), that would then return an average for the stock cost.
+
 To set up the application:
 	First, make sure that you set the prefix and IAM number in the scripts to your preferences. Currently, the prefixes are all lasivori, which can be left alone, but the IAM numbers should be changed. 
 	These scripts have prefixes: sns-sqs-setup.py, automation.py, lambda-upload.py
